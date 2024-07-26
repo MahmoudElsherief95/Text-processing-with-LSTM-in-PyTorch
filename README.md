@@ -29,7 +29,7 @@ Usually, we would now train and validate our model on a grid of with different h
 
 Write a function `topk_accuracy` that takes a list of integers $k$, a model, and a data loader and returns the top-$k$ accuracy of the model on the given data set for each $k$. A sample is considered to be classified correctly if the true label appears in the top-$k$ classes predicted by the model. Then load the best model from the previous exercise using `torch.load` and plot its top-$k$ accuracy as a function of $k$ for all possible values of $k$. Discuss the results.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Exercise 7: Gumbel-Max Character Sampling
 
 <img width="1553" alt="image" src="https://github.com/user-attachments/assets/1a53eacf-14c0-4761-a9aa-973ac170b4e0">
