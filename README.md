@@ -29,7 +29,8 @@ Write a function `epoch` that takes a `torch.utils.data.DataLoader`, a `NextChar
 
 Usually, we would now train and validate our model on a grid of with different hyperparameters to see which setting performs best. However, this is pretty expensive in terms of compute so we will provide you with a setting that should work quite well. Train your model for 30 epochs using `torch.optim.Adam`. Validate your model after every epoch and persist the model that performs best on the validation set using `torch.save`. Visualize and discuss the training and validation progress.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------## Exercise 6: Top-$k$ Accuracy
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Exercise 6: Top-$k$ Accuracy
 
 Write a function `topk_accuracy` that takes a list of integers $k$, a model, and a data loader and returns the top-$k$ accuracy of the model on the given data set for each $k$. A sample is considered to be classified correctly if the true label appears in the top-$k$ classes predicted by the model. Then load the best model from the previous exercise using `torch.load` and plot its top-$k$ accuracy as a function of $k$ for all possible values of $k$. Discuss the results.
 
